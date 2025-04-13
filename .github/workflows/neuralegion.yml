@@ -12,7 +12,7 @@ jobs:
     name: A job to run a Nexploit scan
     steps:
       - uses: actions/checkout@v4
-      - 'Nexploit,NeuraLegion
+      
   #scan @29ebd17b4fd6292ce7a238a59401668953b37fb
 #  api_token: # ${{secrets.NEURALEGION_TOKEN}}				
  # name: GitHub scan ${{ github.sha }} discovery_types: # [crawler]crawler_urls: | "https://github.com/squad3" ] 
